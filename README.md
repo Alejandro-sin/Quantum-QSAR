@@ -1,7 +1,7 @@
 <h1 align="center">
   <img src="images/logo.png">
   <br/>
-  Project: 
+  Project: Quantum-QSAR
   <br>
 </h1>
 
@@ -20,11 +20,13 @@
   </a>
 </p>
 
-
 # INTRODUCTION.
 
-In this project I learn about ...  and how integrate ...
-Im base on... 
+The intention of this project is to explore other ways to enhance QSAR methods in the context of computational drug discovery. In order to explain myself and also try to share with the public, I am also posting the reference of knowledge and sources from the inspiration comes.
+
+
+Anyway, feedback is always welcome, as I strongly believe that it is the only way to grow.
+
 
 ## **Index** :
 
@@ -35,15 +37,28 @@ Im base on...
 </ul>
 
 
+## Explanation
+
+The application interface was created with [Streamlit]() and there is also the information repository for the explanation of QSAR, quantum computing and circuits, and open research on quantum machine learning approaches to handling chemical data.
+
+Even tough if are interesting in clone and run the app you just need:
+
+```bash
+
+pip install requirements.txt
+
+streamlit run .\app\Home.py
+
+```
+
+If you are interested on the learning step-by-step Its better follow along [here]()
 
 
+# Por mejorar:
 
 
-
-
-
-
-
-
-
+1. Poner el sistema más optimo para frezear lo necesario y que se instale lo necesario.
+2. Dockerizar para lo de streamlit de ser necesario y hacerlo multiplataforma.
+3. Encontrar una forma elegante de poner la arquitectura del proceso en general.
+4. En el Here mostrar tutoriales en medium 
 
